@@ -1,0 +1,69 @@
+.container {
+    background-image: url("../../assets/office.jpg"); /* ajuste esse caminho se necessário */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 630px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 57px;
+}
+
+.container .title {
+    color: #fff;
+    max-width: 814px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.container .title h1{
+    font-size: 54px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container .title p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container .buttons {
+    display: flex;
+    gap: 133px;
+}
+
+.container .buttons button:nth-child(1) {
+    transition: background-color, border, color, 0.3s ease-in-out;
+
+    font-size: 18px;
+}
+
+.container .buttons button:nth-child(2){
+    background-color: transparent;
+    border: 1px solid var(--color-yellow);
+    color: #fff;
+
+    font-size: 18px;
+    
+    transition: background-color, border, color, 0.3s ease-in-out;
+
+}
+
+.container .buttons button:nth-child(1):hover {
+    background-color: transparent;
+    border: 1px solid var(--color-yellow);
+    color: #fff;
+}
+
+.container .buttons button:nth-child(2):hover {
+    background-color: var(--color-yellow);
+    border: none;
+    color: var(--text-color-primary);
+}
