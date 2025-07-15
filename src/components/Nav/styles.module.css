@@ -1,0 +1,29 @@
+.container {
+    width: 50%;
+    height: auto;
+    padding: 13px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    z-index: 1000;
+    transform: translate(-50%);
+
+    border-radius: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+.container > p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.container button {
+    font-size: 18px;
+    font-weight: 500;
+}
