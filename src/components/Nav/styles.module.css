@@ -15,7 +15,8 @@
 
     border-radius: 300px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    color: black;
+    color: var(--text-color-primary);
+    background-color: var(--background-color-primary);
 }
 
 .container > p {

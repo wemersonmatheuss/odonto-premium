@@ -9,7 +9,7 @@
     --background-color-primary: #F2F2F2;
     --background-color-secondary: #1F1F1F;
 
-    --text-color-primary: #000;
+    --text-color-primary: #1f1f1f;
     --text-color-secondary: #979797;
 
     --color-yellow: #F2FF00;
@@ -20,10 +20,10 @@
 
 button {
     background-color: var(--color-yellow);
-    color: #000;
+    color: var(--text-color-primary);
 
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
 
     padding: 12px 16px;
 
@@ -36,5 +36,5 @@ button {
 }
 
 button:hover {
-     background-color: #e8e853;
+    background-color: #e8e853;
 }
