@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    height: auto;
+
+    padding: 45px 125px;
+
+    background-color: var(--background-color-secondary);
+    color: #fff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.button {
+    font-size: 25px;
+    font-weight: 500;
+}
