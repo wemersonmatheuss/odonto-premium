@@ -10,12 +10,18 @@
     --background-color-secondary: #1F1F1F;
 
     --text-color-primary: #1f1f1f;
-    --text-color-secondary: #979797;
+    --text-color-secondary: #6c6c6c;
 
     --color-yellow: #F2FF00;
 
     /* FONT */
     --font: "Poppins", sans-serif;
+}
+
+body {
+    background-color: var(--background-color-primary);
+    width: 100%;
+    height: 100vh;
 }
 
 button {

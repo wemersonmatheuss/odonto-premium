@@ -1,0 +1,74 @@
+.container {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 59px;
+
+    padding: 45px 125px;
+}
+
+.container > h1 {
+    margin: 0 auto;
+
+    font-size: 36px;
+    font-weight: 500;
+
+    color: var(--text-color-primary);
+}
+
+.container .containerChild {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .containerChild .needs {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+
+}
+
+.container .containerChild .needs .need {
+    max-width: 564px;
+
+    display: flex;
+    gap: 14px;
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50px;
+
+    background-color: black;
+    background-image: url("../../assets/svg/tooth.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    flex-shrink: 0;
+}
+
+.description h3 {
+    font-size: 24px;
+    font-weight: 500;
+
+    color: var(--text-color-primary);
+}
+
+.description p {
+    font-size: 16px;
+    font-weight: 400;
+
+    color: var(--text-color-secondary);
+}
+
+.image img {
+    width: 410px;
+    height: auto;
+}
