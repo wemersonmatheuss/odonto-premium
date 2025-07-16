@@ -6,6 +6,7 @@ import { Main } from "./components/Main-initial"
 import { Need } from "./components/Need"
 import { VideoSection } from "./components/VideoSection"
 import { Cta } from "./components/Cta"
+import { Specialties } from "./components/Specialties"
 
 export function App() {
   return (
@@ -15,6 +16,7 @@ export function App() {
       <Need />
       <VideoSection altText="Vídeo Institucional" videoSrc="/videos/video.mp4"/>
       <Cta title="Avaliação Gratuita Somente Hoje"/>
+      <Specialties/>
     </div>
   )
 }
