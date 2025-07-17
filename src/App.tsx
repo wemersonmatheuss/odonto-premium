@@ -17,6 +17,7 @@ export function App() {
       <VideoSection altText="Vídeo Institucional" videoSrc="/videos/video.mp4"/>
       <Cta title="Avaliação Gratuita Somente Hoje"/>
       <Specialties/>
+      <VideoSection altText="Vídeo Institucional" videoSrc="/videos/video.mp4"/>
     </div>
   )
 }
