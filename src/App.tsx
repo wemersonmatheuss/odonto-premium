@@ -7,6 +7,7 @@ import { Need } from "./components/Need"
 import { VideoSection } from "./components/VideoSection"
 import { Cta } from "./components/Cta"
 import { Specialties } from "./components/Specialties"
+import { Team } from "./components/Team"
 
 export function App() {
   return (
@@ -18,6 +19,7 @@ export function App() {
       <Cta title="Avaliação Gratuita Somente Hoje"/>
       <Specialties/>
       <VideoSection altText="Vídeo Institucional" videoSrc="/videos/video.mp4"/>
+      <Team/>
     </div>
   )
 }
