@@ -8,6 +8,7 @@ import { VideoSection } from "./components/VideoSection"
 import { Cta } from "./components/Cta"
 import { Specialties } from "./components/Specialties"
 import { Team } from "./components/Team"
+import { InfoContact } from "./components/InfoContact"
 
 import video from "../public/videos/video.mp4"
 
@@ -22,6 +23,7 @@ export function App() {
       <Specialties/>
       <VideoSection altText="Vídeo Institucional" videoSrc={video}/>
       <Team/>
+      <InfoContact/>
     </div>
   )
 }
