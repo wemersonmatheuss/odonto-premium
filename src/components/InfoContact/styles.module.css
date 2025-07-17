@@ -20,6 +20,16 @@
     text-align: center;
 }
 
+.title h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.title p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
 .info {
     width: 100%;
     display: flex;
