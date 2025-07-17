@@ -11,6 +11,7 @@ import { Team } from "./components/Team"
 import { InfoContact } from "./components/InfoContact"
 import { SectionPhotos } from "./components/SectionPhotos"
 import { About } from "./components/About"
+import { Map } from "./components/Map"
 
 import video from "../public/videos/video.mp4"
 
@@ -29,6 +30,7 @@ export function App() {
       <SectionPhotos/>
       <About/>
       <Cta title="Avaliação Gratuita Somente Hoje"/>
+      <Map/>
     </div>
   )
 }
