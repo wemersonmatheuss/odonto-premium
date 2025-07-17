@@ -1,0 +1,97 @@
+.container {
+    width: 100%;
+    height: auto;
+
+    padding: 45px 125px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+
+    background-color: var(--background-color-secondary);
+    color: #fff;
+}
+
+.global {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    width: 237px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.name > h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+.links img {
+    width: 20px;
+    height: 20px;
+}
+
+.navigation {
+    width: 237px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navigation > h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.linksNavigation {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.linksNavigation a {
+    font-size: 14px;
+    font-weight: 500;
+
+    color: white;
+}
+
+.finally {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+
+    background-color: var(--text-color-secondary);
+}
+
+.footerInfos {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerInfos a {
+    font-size: 14px;
+    font-weight: 400;
+
+    color: #fff;
+}
