@@ -1,29 +1,38 @@
-.container {
-    width: 100%;
-    height: auto;
 
-    padding: 45px 125px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 48px;
-
-    background-color: var(--background-color-secondary);
-    color: #fff;
+ .container {
+  width: 100%;
+  overflow: hidden;
+  padding: 2rem 0;
 }
 
-.title h2{
-    text-align: center;
-    font-size: 36px;
-    font-weight: 500;
+.title {
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
-.card {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+.carousel {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carouselTrack {
+  display: flex;
+  gap: 1rem;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Ajuste para o CardPhoto */
+.carouselTrack > * {
+  flex: 0 0 auto;
+  width: 300px; /* Ajuste o tamanho do card */
 }

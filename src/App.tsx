@@ -28,6 +28,7 @@ export function App() {
       <InfoContact/>
       <SectionPhotos/>
       <About/>
+      <Cta title="Avaliação Gratuita Somente Hoje"/>
     </div>
   )
 }
