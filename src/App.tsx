@@ -9,16 +9,18 @@ import { Cta } from "./components/Cta"
 import { Specialties } from "./components/Specialties"
 import { Team } from "./components/Team"
 
+import video from "../public/videos/video.mp4"
+
 export function App() {
   return (
     <div className={styles.container}>
       <Main/>
       <Nav/>
       <Need />
-      <VideoSection altText="Vídeo Institucional" videoSrc="/videos/video.mp4"/>
+      <VideoSection altText="Vídeo Institucional" videoSrc={video}/>
       <Cta title="Avaliação Gratuita Somente Hoje"/>
       <Specialties/>
-      <VideoSection altText="Vídeo Institucional" videoSrc="/videos/video.mp4"/>
+      <VideoSection altText="Vídeo Institucional" videoSrc={video}/>
       <Team/>
     </div>
   )
