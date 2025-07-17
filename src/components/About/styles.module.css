@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    height: auto;
+
+    padding: 45px 125px;
+
+   display: flex;
+   justify-content: space-between;
+}
+
+.image img {
+    width: 530px;
+    height: auto;
+}
+
+.description {
+    width: 433px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.description h3 {
+    text-align: center;
+
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.description p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: justify;
+}
