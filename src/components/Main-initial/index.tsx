@@ -13,7 +13,6 @@ export function Main() {
 
             <div className={styles.buttons}>
                 <ButtonPrimary name="Agendar Consulta" />
-                <ButtonPrimary name="Nossas Especialidades" />
             </div>
         </main>
     )

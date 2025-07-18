@@ -4,34 +4,36 @@
     background-position: center;
     background-repeat: no-repeat;
 
-    height: 630px;
+    height: 570px;
     
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 57px;
+    gap: 47px;
 }
 
 .container .title {
     color: #fff;
     max-width: 814px;
+    
+    margin-top: 20px;
 
     display: flex;
     flex-direction: column;
-    gap: 29px;
+    gap: 19px;
 }
 
 .container .title h1{
     font-size: 54px;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
-    line-height: 150%;
+    line-height: 120%;
 }
 
 .container .title p {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
     line-height: 120%;
 }
@@ -44,28 +46,13 @@
 .container .buttons button:nth-child(1) {
     transition: background-color, border, color, 0.3s ease-in-out;
 
-    font-size: 18px;
+    font-size: 22px;
+    padding: 15px 25px;
 }
 
-.container .buttons button:nth-child(2){
-    background-color: transparent;
-    border: 1px solid var(--color-yellow);
-    color: #fff;
-
-    font-size: 18px;
-    
-    transition: background-color, border, color, 0.3s ease-in-out;
-
-}
 
 .container .buttons button:nth-child(1):hover {
     background-color: transparent;
     border: 1px solid var(--color-yellow);
     color: #fff;
-}
-
-.container .buttons button:nth-child(2):hover {
-    background-color: var(--color-yellow);
-    border: none;
-    color: var(--text-color-primary);
 }

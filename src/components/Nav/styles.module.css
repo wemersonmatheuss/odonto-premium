@@ -1,7 +1,7 @@
 .container {
     width: 50%;
     height: auto;
-    padding: 13px 40px;
+    padding: 13px 15px 13px 30px;
 
     display: flex;
     justify-content: space-between;
@@ -26,5 +26,7 @@
 
 .container button {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
+
+    padding: 13px 20px;
 }

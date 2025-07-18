@@ -1,3 +1,4 @@
+import styles from "./styles.module.css"
 
 type Props = React.ComponentProps<"button"> & {
     name: string
@@ -5,6 +6,6 @@ type Props = React.ComponentProps<"button"> & {
 
 export function ButtonPrimary({ name, ...rest }: Props) {
     return (
-        <button { ...rest } type="button">{name}</button>
+        <button className={styles.button} { ...rest } type="button">{name}</button>
     )
 }
