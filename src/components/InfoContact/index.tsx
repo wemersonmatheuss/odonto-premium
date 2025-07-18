@@ -9,6 +9,41 @@ import email from "../../assets/svg/email.svg"
 import clock from "../../assets/svg/clock.svg"
 
 export function InfoContact() {
+    // Função para enviar dados para Google Sheets
+    async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+        e.preventDefault();
+        const form = e.currentTarget;
+        const data = {
+            nome: (form.nome as HTMLInputElement).value,
+            telefone: (form.telefone as HTMLInputElement).value,
+            email: (form.email as HTMLInputElement).value,
+            servico: (form.servico as HTMLSelectElement).value,
+        };
+        // Substitua pela URL do seu Google Apps Script
+        const endpoint = "https://script.google.com/macros/s/AKfycbyDAodll0tHQBQFJOJjv2TxeJ9QhknzTHqiIPp020hnBdIia27r6DKAnxpSgb6i3fKj/exec";
+        try {
+            const res = await fetch(endpoint, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(data)
+            });
+            if (res.ok) {
+                alert("Formulário enviado com sucesso!");
+                form.reset();
+            } else {
+                alert("Erro ao enviar formulário.");
+            }
+        } catch (err: unknown) {
+                if (typeof err === 'string') {
+                 console.error(err);
+                } else {
+                 console.error('Erro desconhecido', err);
+                 }
+            }
+        }
+
     return (
         <section className={styles.container}>
             <div className={ styles.title }>
@@ -28,7 +63,35 @@ export function InfoContact() {
                 </div>
 
                 <div className={styles.formWrapper}>
-                    <h1>FORMULARIo</h1>
+                    <h2>Formulário de Contato</h2>
+                    <form onSubmit={handleSubmit} className={styles.form}>
+                        <div>
+                            <label htmlFor="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" required />
+                        </div>
+                        <div>
+                            <label htmlFor="telefone">Telefone:</label>
+                            <input type="tel" id="telefone" name="telefone" required />
+                        </div>
+                        <div>
+                            <label htmlFor="email">Email:</label>
+                            <input type="email" id="email" name="email" required />
+                        </div>
+                        <div>
+                            <label htmlFor="servico">Serviço:</label>
+                            <select id="servico" name="servico" required>
+                                <option value="">Selecione um serviço</option>
+                                <option value="Clínico Geral">Clínico Geral</option>
+                                <option value="Ortodontia">Ortodontia</option>
+                                <option value="Endodontia">Endodontia</option>
+                                <option value="Prótese">Prótese</option>
+                                <option value="Estética">Estética</option>
+                                <option value="Odontopediatria">Odontopediatria</option>
+                                <option value="Fisioterapia">Fisioterapia</option>
+                            </select>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
                 </div>
             </div>
         </section>
