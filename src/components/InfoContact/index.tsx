@@ -11,38 +11,37 @@ import clock from "../../assets/svg/clock.svg"
 export function InfoContact() {
     // Função para enviar dados para Google Sheets
     async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
-        e.preventDefault();
-        const form = e.currentTarget;
-        const data = {
-            nome: (form.nome as HTMLInputElement).value,
-            telefone: (form.telefone as HTMLInputElement).value,
-            email: (form.email as HTMLInputElement).value,
-            servico: (form.servico as HTMLSelectElement).value,
-        };
-        // Substitua pela URL do seu Google Apps Script
-        const endpoint = "https://script.google.com/macros/s/AKfycbyDAodll0tHQBQFJOJjv2TxeJ9QhknzTHqiIPp020hnBdIia27r6DKAnxpSgb6i3fKj/exec";
-        try {
-            const res = await fetch(endpoint, {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify(data)
-            });
-            if (res.ok) {
-                alert("Formulário enviado com sucesso!");
-                form.reset();
-            } else {
-                alert("Erro ao enviar formulário.");
-            }
-        } catch (err: unknown) {
-                if (typeof err === 'string') {
-                 console.error(err);
-                } else {
-                 console.error('Erro desconhecido', err);
-                 }
-            }
-        }
+  e.preventDefault();
+  const form = e.currentTarget;
+
+  const formData = new FormData(form);
+  // (opcional) se quiser forçar algum valor:
+  // formData.set('servico', (form.servico as HTMLSelectElement).value);
+
+  const endpoint = "https://script.google.com/macros/s/AKfycbwBuawT2pXP7yP8cbWQ6uWGx3r7ks5_g_G0uPwtjPG1o64h5odtUzl4RaveBzf5X-82/exec";
+
+  try {
+    const res = await fetch(endpoint, {
+      method: "POST",
+      body: formData,
+      // NÃO coloque headers Content-Type -> o browser define e evita preflight
+    });
+
+    // Como o Apps Script devolve texto simples, vamos ler como text()
+    const text = await res.text();
+
+    if (res.ok && text.trim() === 'OK') {
+      alert("Formulário enviado com sucesso!");
+      form.reset();
+    } else {
+      console.error('Resposta inesperada do servidor:', res.status, text);
+      alert("Erro ao enviar formulário.");
+    }
+  } catch (err) {
+    console.error('Erro desconhecido', err);
+    alert("Erro de conexão ao enviar formulário.");
+  }
+}
 
     return (
         <section className={styles.container}>
