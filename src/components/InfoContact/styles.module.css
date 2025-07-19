@@ -95,6 +95,11 @@ select {
     border: 1px solid var(--background-color-secondary);
 }
 
+input:focus,
+select:focus {
+    border: 1px solid var(--color-yellow);
+}
+
 .form select option {
   background: #fff;
   color: #000;

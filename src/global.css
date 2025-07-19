@@ -24,6 +24,10 @@ body {
     height: 100vh;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 button {
     background-color: var(--color-yellow);
     color: var(--text-color-primary);
