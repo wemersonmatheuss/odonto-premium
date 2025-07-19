@@ -160,3 +160,73 @@ form > button {
     font-size: 18px;
     font-weight: 500;
 }
+
+@media screen and (max-width: 320px) {
+    .container {
+        padding: 20px;
+
+        gap: 30px;
+    }
+
+    .title h2 {
+        font-size: 22px;
+    }
+
+    .title p {
+        font-size: 14px;
+    }
+
+    .info {
+        flex-direction: column-reverse;
+        gap: 15px;
+
+        width: 100%;
+    }
+
+    .cards {
+        width: 100%;
+
+        gap: 20px;
+    }
+
+    .formWrapper {
+        width: 100%;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    select,
+    input {
+        padding: px;
+    }
+
+    .formWrapper h2 {
+        display: none;
+    }
+
+    form > button {
+        font-size: 14px;
+    }
+
+    .sucesso > h3 {
+        font-size: 18px;
+    }
+
+    .sucesso > p {
+        font-size: 14px;
+
+        margin-top: 5px;
+    }
+
+    .sucesso > button {
+        font-size: 14px;
+    }
+
+    .enviando {
+        font-size: 16px;
+
+        margin-top: 5px;
+    }
+}

@@ -120,3 +120,39 @@
 .footerInfos a:hover {
     color: var(--color-yellow);
 }
+
+@media screen and (max-width: 320px) {
+    .container {
+        padding: 20px;
+        gap: 30px;
+        
+        text-align: center;
+        align-items: center;
+    }
+
+    .global {
+        flex-direction: column;
+
+        gap: 25px;
+    }
+
+    .name {
+        gap: 15px;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+    }
+
+    .finally {
+        flex-direction: column;
+    }
+
+    .footerInfos {
+        flex-direction: column;
+    }
+}

@@ -34,3 +34,27 @@
     line-height: 120%;
     text-align: justify;
 }
+
+@media screen and (max-width: 320px) {
+    .container {
+        padding: 20px;
+
+        width: 100%;
+
+        flex-direction: column;
+    }
+
+    .image img {
+        width: 100%;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .description h3 {
+        font-size: 22px;
+
+        margin-top: 8px;
+    }
+}

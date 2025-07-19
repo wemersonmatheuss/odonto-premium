@@ -1,6 +1,6 @@
 .container {
     max-width: 353px;
-    max-height: 428px;
+    height: auto;
 
     padding: 25px 25px 37px 25px;
 
@@ -93,4 +93,17 @@
 
 .cta a:hover {
     color: black;
+}
+@media screen and (max-width: 320px) {
+    .container {
+        padding: 20px 20px 27px 20px;
+    }
+
+    .title h3 {
+        font-size: 18px;
+    }
+
+    .title p {
+        font-size: 14px;
+    }
 }

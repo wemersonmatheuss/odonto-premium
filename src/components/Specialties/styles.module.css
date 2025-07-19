@@ -41,3 +41,23 @@
     gap: 27px;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 320px) {
+    .container {
+        padding: 20px;
+
+        gap: 30px;
+    }
+
+    .title p {
+        font-size: 14px;
+    }
+
+    .title h2 {
+        font-size: 22px;
+    }
+
+    .card {
+        gap: 20px;
+    }
+}

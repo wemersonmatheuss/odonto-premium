@@ -60,3 +60,11 @@
 
     color: var(--text-color-secondary);
 }
+
+@media screen and (max-width: 320px) {
+    .container {
+        width: 100%;
+
+        justify-content: start;
+    }
+}
