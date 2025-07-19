@@ -161,6 +161,33 @@ form > button {
     font-weight: 500;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 32px;
+    }
+
+    .info {
+        flex-direction: column-reverse;
+        align-items: center;
+
+        gap: 30px;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    .title h2 {
+        font-size: 30px;
+    }
+
+    .formWrapper h2 {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .container {
         padding: 20px;

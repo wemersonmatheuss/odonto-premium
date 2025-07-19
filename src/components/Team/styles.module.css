@@ -38,6 +38,16 @@
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 32px;
+    }
+
+    .title h2 {
+        font-size: 30px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .container {
         padding: 20px;

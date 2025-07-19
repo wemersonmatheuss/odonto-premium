@@ -57,14 +57,33 @@
     color: #fff;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        height: 550px;
+
+        padding: 32px;
+    }
+
+    .container .title {
+        margin-top: 60px;
+    }
+
+    .container .title h1 {
+        font-size: 40px;
+    }
+
+    .container .title p {
+        font-size: 18px;
+    }
+}
+
 
 @media screen and (max-width: 320px) {
     .container {
         height: 400px;
         gap: 20px;
 
-        padding-inline: 
-        20px;
+        padding-inline: 20px;
     }
 
     .container .title {

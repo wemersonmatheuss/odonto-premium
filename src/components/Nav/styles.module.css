@@ -31,6 +31,14 @@
     padding: 13px 20px;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+
+        padding-block: 15px;
+    }  
+}
+
 @media screen and (max-width: 320px) {
     .container {
         width: 95%;
