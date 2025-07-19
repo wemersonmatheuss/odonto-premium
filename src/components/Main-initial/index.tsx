@@ -4,7 +4,7 @@ import { ButtonPrimary } from "../ButtonPrimary"
 
 export function Main() {
     return (
-        <main className={styles.container}>
+        <main className={styles.container} id="main">
 
             <div className={styles.title}>
                 <h1>Cuidando da Sua Saúde com Excelência</h1>

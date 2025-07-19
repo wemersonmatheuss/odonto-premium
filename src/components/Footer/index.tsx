@@ -12,11 +12,11 @@ export function Footer() {
 
                 <div className={styles.name}>
 
-                    <h2>ODONTO PREMIUM</h2>
+                    <a href="#">ODONTO PREMIUM</a>
 
                     <div className={styles.links}>
 
-                        <a href="#">
+                        <a href="https://www.instagram.com/odontoopremium/" target="blank">
                             <img src={insta} alt="" />
                         </a>
 
@@ -24,7 +24,7 @@ export function Footer() {
                             <img src={whatsapp} alt="" />
                         </a>
 
-                        <a href="#">
+                        <a href="mailto:dradaniela@gmail.com" target="blank">
                             <img src={email} alt="" />
                         </a>
 
@@ -34,25 +34,25 @@ export function Footer() {
                 <div className={styles.navigation}>
                     <h3>Especialidades</h3>
                     <div className={styles.linksNavigation}>
-                        <a href="#">Odontologia Geral</a>
-                        <a href="#">Implante de Prótese</a>
-                        <a href="#">Odontopediatria</a>
-                        <a href="#">Ortodontia (Aparelho)</a>
-                        <a href="#">Clareamento e Estética</a>
-                        <a href="#">Endodontia</a>
-                        <a href="#">Fisioterapia Integrada</a>
+                        <a href="#specialties">Odontologia Geral</a>
+                        <a href="#specialties">Implante de Prótese</a>
+                        <a href="#specialties">Odontopediatria</a>
+                        <a href="#specialties">Ortodontia (Aparelho)</a>
+                        <a href="#specialties">Clareamento e Estética</a>
+                        <a href="#specialties">Endodontia</a>
+                        <a href="#specialties">Fisioterapia Integrada</a>
                     </div>
                 </div>
 
                 <div className={styles.navigation}>
                     <h3>Navegação Rápida</h3>
                     <div className={styles.linksNavigation}>
-                        <a href="#">Início</a>
-                        <a href="#">Necessidades</a>
-                        <a href="#">Especialidades</a>
-                        <a href="#">Especialistas</a>
-                        <a href="#">Contato</a>
-                        <a href="#">Nosso Espaço</a>
+                        <a href="#main">Início</a>
+                        <a href="#need">Necessidades</a>
+                        <a href="#specialties">Especialidades</a>
+                        <a href="#team">Especialistas</a>
+                        <a href="#contact">Contato</a>
+                        <a href="#photos">Nosso Espaço</a>
                     </div>
                 </div>
 
@@ -60,7 +60,7 @@ export function Footer() {
                     <h3>Contato</h3>
                     <div className={styles.linksNavigation}>
                         <a href="#">(81) 99999-9999</a>
-                        <a href="#">dradaniela@gmail.com</a>
+                        <a href="mailto:dradaniela@gmail.com">dradaniela@gmail.com</a>
                         <a href="#">Limoeiro/PE</a>
                         <a href="#">Seg-Sex: 8h às 17h | Sab: 8h às 13h</a>
                     </div>
@@ -73,6 +73,7 @@ export function Footer() {
                     <a href="#">© 2025 . Todos os direitos reservados.</a>
                     <a href="#">Política de Privacidade</a>
                     <a href="#">Termos e Condições</a>
+                    <a href="https://www.instagram.com/wemerson_dev/" target="blank" style={{color: "red"}}>Desenvolvido e mantido por Wemerson Dev</a>
                 </div>
             </div>
         </footer>

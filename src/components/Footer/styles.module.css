@@ -26,9 +26,11 @@
     gap: 20px;
 }
 
-.name > h2 {
+.name > a {
     font-size: 20px;
     font-weight: 500;
+    
+    color: #fff;
 }
 
 .links {
@@ -39,6 +41,12 @@
 .links img {
     width: 20px;
     height: 20px;
+
+    transition: transform 0.3s ease;
+}
+
+.links img:hover {
+    transform: scale(1.4)
 }
 
 .navigation {
@@ -63,8 +71,17 @@
 .linksNavigation a {
     font-size: 14px;
     font-weight: 500;
+    line-height: 150%;
+
+    text-decoration: underline;
 
     color: white;
+
+    transition: color 0.3s ease-in-out;
+}
+
+.linksNavigation a:hover {
+    color: var(--color-yellow);
 }
 
 .finally {
@@ -93,5 +110,13 @@
     font-size: 14px;
     font-weight: 400;
 
+    text-decoration: underline;
+
     color: #fff;
+
+    transition: color 0.3s ease-in-out;
+}
+
+.footerInfos a:hover {
+    color: var(--color-yellow);
 }

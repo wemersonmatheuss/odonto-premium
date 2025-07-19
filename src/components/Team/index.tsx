@@ -9,7 +9,7 @@ import imgTatiane from "../../assets/imgTatiane.jpg"
 
 export function Team() {
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id="team">
             <div className={ styles.title }>
                 <p>Nossa Equipe</p>
                 <h2>Médicos Especialistas</h2>

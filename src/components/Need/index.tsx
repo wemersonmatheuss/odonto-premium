@@ -4,7 +4,7 @@ import img from "../../assets/image-need.jpg"
 
 export function Need() {
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id="need">
             <h1>Por que você precisa da gente</h1>
 
             <div className={styles.containerChild}>

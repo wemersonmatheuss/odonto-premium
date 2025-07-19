@@ -56,7 +56,7 @@ export function InfoContact() {
   }
 
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="contact">
       <div className={styles.title}>
         <p>Contato</p>
         <h2>Agende sua Consulta</h2>

@@ -12,7 +12,7 @@ import physiotherapy from "../../assets/svg/physiotherapy.svg"
 
 export function Specialties() {
     return (
-        <section className={ styles.container }>
+        <section className={ styles.container } id="specialties">
             <div className={ styles.title }>
                 <p>Nossas Especialidades</p>
                 <h2>Cuidado Completo para Toda a Família</h2>

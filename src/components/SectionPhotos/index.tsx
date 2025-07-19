@@ -11,7 +11,7 @@ export function SectionPhotos() {
   ];
 
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="photos">
       <div className={styles.title}>
         <h2>Conheça nosso espaço</h2>
       </div>
