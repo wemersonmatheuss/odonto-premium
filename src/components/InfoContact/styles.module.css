@@ -186,6 +186,10 @@ form > button {
     .formWrapper h2 {
         display: none;
     }
+
+    select {
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width: 480px) {
