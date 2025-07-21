@@ -48,7 +48,7 @@ export function CardSpecialties({ img, title, subtitle, service1, service2, serv
             </div>
 
             <div className={styles.cta}>
-                <a href="#">{ cta }</a>
+                <a href="#contact">{ cta }</a>
             </div>
         </div>
     )

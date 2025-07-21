@@ -59,9 +59,10 @@ export function Footer() {
                 <div className={styles.navigation}>
                     <h3>Contato</h3>
                     <div className={styles.linksNavigation}>
-                        <a href="#">(81) 99999-9999</a>
+                        <a href="#">(81) 983144661</a>
+                        <a href="#">(81) 979111263</a>
                         <a href="mailto:dradaniela@gmail.com">dradaniela@gmail.com</a>
-                        <a href="#">Limoeiro/PE</a>
+                        <a href="#">Vitória/PE</a>
                         <a href="#">Seg-Sex: 8h às 17h | Sab: 8h às 13h</a>
                     </div>
                 </div>
