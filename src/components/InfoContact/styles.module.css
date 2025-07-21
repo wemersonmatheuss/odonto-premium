@@ -200,6 +200,17 @@ form > button {
     }
 }
 
+
+@media screen and (max-width: 480px) {
+    .formWrapper {
+        width: 100%;
+    }
+
+    .info {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .container {
         padding: 20px;
