@@ -6,7 +6,7 @@ export function Nav() {
     return (
         <nav className={styles.container}>
             <p>ODONTO PREMIUM</p>
-            <ButtonPrimary name="Agendar Consulta"/>
+            <ButtonPrimary name="Agendar"/>
         </nav>
     )
 }

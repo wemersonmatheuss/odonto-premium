@@ -78,6 +78,27 @@
 }
 
 
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 20px;
+
+        height: 500px;
+    }
+
+    .container .title h1 {
+        font-size: 32px;
+    }
+
+    .container .title p {
+        font-size: 16px;
+    }
+
+    .container .buttons button:nth-child(1) {
+        font-size: 18px;
+    }
+}
+
+
 @media screen and (max-width: 320px) {
     .container {
         height: 400px;

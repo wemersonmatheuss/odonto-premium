@@ -73,6 +73,16 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  .container {
+    padding-block: 20px;
+  }
+
+  .title h2 {
+    font-size: 24px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .container {
     padding-block: 20px;
