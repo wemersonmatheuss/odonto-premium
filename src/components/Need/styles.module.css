@@ -83,6 +83,8 @@
 
     .container > h1 {
         font-size: 30px;
+
+        text-align: center;
     }
 
     .containerChild {
@@ -125,6 +127,12 @@
     }
 
     
+}
+
+@media screen and (max-width: 390px) {
+    .container h1 {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 320px) {

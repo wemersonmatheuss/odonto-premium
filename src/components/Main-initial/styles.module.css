@@ -98,6 +98,18 @@
     }
 }
 
+@media screen and (max-width: 390px) {
+    .container .title h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .container .title h1 {
+        font-size: 26px;
+    }
+}
+
 
 @media screen and (max-width: 320px) {
     .container {

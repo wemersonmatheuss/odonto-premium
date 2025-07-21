@@ -67,6 +67,12 @@
     font-weight: 400;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .container {
         width: 100%;
