@@ -70,21 +70,21 @@ export function TermosCondicoes() {
 
                 <p>
                     5. Propriedade Intelectual <br />
-                    Todo o conteúdo deste site (textos, imagens, vídeos, gráficos, ícones, logotipos, entre outros) é propriedade exclusiva da Clínica [Nome da Clínica] ou de seus parceiros licenciados. <br />
+                    Todo o conteúdo deste site (textos, imagens, vídeos, gráficos, ícones, logotipos, entre outros) é propriedade exclusiva da Clínica Odonto Premium ou de seus parceiros licenciados. <br />
 
                     É proibida a reprodução, distribuição ou modificação de qualquer parte deste site sem autorização prévia por escrito.
                 </p>
 
                 <p>
                     6. Privacidade e Proteção de Dados <br />
-                    Levamos a privacidade dos nossos pacientes e visitantes a sério. Ao utilizar este site, você concorda com a coleta e tratamento de dados conforme nossa Política de Privacidade (disponível [aqui — link para a política]). <br />
+                    Levamos a privacidade dos nossos pacientes e visitantes a sério. Ao utilizar este site, você concorda com a coleta e tratamento de dados conforme nossa Política de Privacidade. <br />
 
-                    Os dados fornecidos (como nome, telefone, e-mail e CPF) são armazenados de forma segura e utilizados apenas para fins de contato, agendamento e relacionamento com o paciente, conforme a Lei Geral de Proteção de Dados (LGPD – Lei nº 13.709/2018).
+                    Os dados fornecidos (como nome, telefone, e-mail) são armazenados de forma segura e utilizados apenas para fins de contato, agendamento e relacionamento com o paciente, conforme a Lei Geral de Proteção de Dados (LGPD – Lei nº 13.709/2018).
                 </p>
 
                 <p>
                     7. Responsabilidades da Clínica <br />
-                    A Clínica [Nome da Clínica] se compromete a: <br />
+                    A Clínica Odonto Premium se compromete a: <br />
 
                     Prestar informações claras, atualizadas e verdadeiras sobre os serviços oferecidos; <br />
 
@@ -108,7 +108,7 @@ export function TermosCondicoes() {
 
                 <p>
                     9. Links Externos <br />
-                    Este site pode conter links para sites de terceiros. A Clínica [Nome da Clínica] não se responsabiliza por conteúdos, políticas de privacidade ou práticas de outros sites externos. <br />
+                    Este site pode conter links para sites de terceiros. A Clínica Odonto Premium não se responsabiliza por conteúdos, políticas de privacidade ou práticas de outros sites externos. <br />
 
                     O acesso a esses sites se dá por conta e risco do usuário.
                 </p>
@@ -131,11 +131,11 @@ export function TermosCondicoes() {
                     12. Contato <br />
                     Em caso de dúvidas, sugestões ou solicitações sobre estes Termos e Condições, entre em contato conosco através dos canais oficiais: <br />
 
-                    E-mail: [email da clínica] <br />
+                    E-mail: dradaniela@gmail.com <br />
 
-                    WhatsApp: [número com DDD] <br />
+                    WhatsApp: (81) 97911-1263 <br />
 
-                    Atendimento presencial: [endereço completo da clínica] 
+                    Atendimento presencial: Av Capitão Antunes, Antigo Beco de Cornélio, Primeiro andar 
                 </p>
 
                 <p>
