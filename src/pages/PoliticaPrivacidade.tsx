@@ -139,6 +139,10 @@ export function PoliticaPrivacidade() {
                      WhatsApp: (81) 97911-1263 <br />
                      Endereço: Av Capitão Antunes, Antigo Beco de Cornélio, Primeiro andar
                 </p>
+
+                <p>
+                    Estamos comprometidos com a sua segurança, privacidade e confiança. Obrigado por escolher a Odonto Premium!
+                </p>
             </div>
         </div>
     )
