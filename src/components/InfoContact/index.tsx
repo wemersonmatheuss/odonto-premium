@@ -67,15 +67,15 @@ export function InfoContact() {
           <CardInfoContact
             icon={map}
             title="Endereço"
-            description="Av Santo Antônio 223A, Centro"
-            info2="Limoeiro/PE - CEP: 55700-000"
+            description="Av Capitão Antunes, Antigo Beco de Cornélio, Primeiro andar"
+            info2="Vitória/PE - CEP: 55600-001"
           />
 
           <CardInfoContact
             icon={telephone}
             title="Telefones"
-            description="(81) 9966-0979"
-            info2="(81) 99666-0979"
+            description="(81) 98314-4661"
+            info2="(81) 97911-1263"
           />
 
           <CardInfoContact icon={email} title="E-mail" description="dradaniela@gmail.com" />

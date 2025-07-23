@@ -4,7 +4,12 @@ import insta from "../../assets/svg/instagram.svg"
 import whatsapp from "../../assets/svg/whatsapp.svg"
 import email from "../../assets/svg/email.svg"
 
-export function Footer() {
+type Props = {
+    link: string
+    link2: string
+}
+
+export function Footer({ link, link2 }: Props) {
     return (
         <footer className={styles.container}>
 
@@ -72,8 +77,8 @@ export function Footer() {
                 <div className={styles.line}></div>
                 <div className={styles.footerInfos}>
                     <a href="#">© 2025 . Todos os direitos reservados.</a>
-                    <a href="#">Política de Privacidade</a>
-                    <a href="#">Termos e Condições</a>
+                    <a href={link}>Política de Privacidade</a>
+                    <a href={link2}>Termos e Condições</a>
                     <a href="https://www.instagram.com/wemerson_dev/" target="blank" style={{color: "red"}}>Desenvolvido e mantido por Wemerson Dev</a>
                 </div>
             </div>

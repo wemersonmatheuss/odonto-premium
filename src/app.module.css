@@ -5,3 +5,33 @@
     
     font-family: var(--font);
 }
+
+.containerInfo {
+    background-color: var(--background-color-primary);
+
+    padding: 45px 125px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.info > h1 {
+    color: var(--text-color-primary);
+
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 16px;
+    line-height: 150%;
+}
