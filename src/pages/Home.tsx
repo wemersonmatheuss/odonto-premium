@@ -23,14 +23,14 @@ export function Home() {
       <Nav/>
       <Need />
       <VideoSection altText="Vídeo Institucional" videoSrc={video}/>
-      <Cta title="Avaliação Gratuita Somente Hoje"/>
+      <Cta title="Agende sua avaliação gratuita"/>
       <Specialties/>
       <VideoSection altText="Vídeo Institucional" videoSrc={video}/>
       <Team/>
       <InfoContact/>
       <SectionPhotos/>
       <About/>
-      <Cta title="Avaliação Gratuita Somente Hoje"/>
+      <Cta title="Agende sua avaliação gratuita"/>
       <Map/>
       <Footer link="/politica" link2="/termos"/>
     </div>

@@ -7,12 +7,12 @@ export function Main() {
         <main className={styles.container} id="main">
 
             <div className={styles.title}>
-                <h1>Cuidando da Sua Saúde com Excelência</h1>
-                <p>Tecnologia de última geração e uma equipe experiente para oferecer tratamentos qualificados com segurança e qualidade.</p>
+                <h1>Sorria sem Medo</h1>
+                <p>Atendimento odontológico de qualidade com preço que cabe no seu bolso</p>
             </div>
 
             <div className={styles.buttons}>
-                <ButtonPrimary name="Agendar Consulta" />
+                <ButtonPrimary name="Agendar avaliação gratuita" />
             </div>
         </main>
     )
