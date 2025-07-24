@@ -26,7 +26,7 @@ export function Need() {
                         <div className={styles.img}></div>
 
                         <div className={styles.description}>
-                            <h3>Preço alto:</h3>
+                            <h3>Preço alto</h3>
                             <p>Preço que você pode pagar
                                 Somos uma clínica particular com valores acessíveis, sem surpresas. Aqui, qualidade e economia andam juntas.
                             </p>
@@ -39,7 +39,7 @@ export function Need() {
                         <div className={styles.img}></div>
 
                         <div className={styles.description}>
-                            <h3>Problemas com confiança ou atendimento infantil:</h3>
+                            <h3>Problemas com confiança ou atendimento infantil</h3>
                             <p>Tratamento humanizado e familiar
                                 Atendemos desde os pequenos até os mais velhos com carinho e paciência. A confiança começa no primeiro atendimento!
                             </p>
