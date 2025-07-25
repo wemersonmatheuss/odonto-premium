@@ -2,15 +2,15 @@
     width: 100%;
     height: auto;
 
-    padding: 45px 125px;
+    padding: 45px 205px;
 
    display: flex;
    justify-content: space-between;
 }
 
 .image img {
-    width: 530px;
-    height: auto;
+    width: 400px;
+    height: 500px;
 }
 
 .description {

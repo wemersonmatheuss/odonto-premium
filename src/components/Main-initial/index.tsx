@@ -2,7 +2,11 @@ import styles from "./styles.module.css"
 
 import { ButtonPrimary } from "../ButtonPrimary"
 
-export function Main() {
+type Props = {
+    onClick?: () => void 
+}
+
+export function Main({ onClick }: Props) {
     return (
         <main className={styles.container} id="main">
 
@@ -12,7 +16,7 @@ export function Main() {
             </div>
 
             <div className={styles.buttons}>
-                <ButtonPrimary name="Agendar avaliação gratuita" />
+                <ButtonPrimary name="Agendar avaliação gratuita" onClick={onClick}/>
             </div>
         </main>
     )

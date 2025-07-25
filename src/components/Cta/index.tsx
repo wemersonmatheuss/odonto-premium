@@ -7,19 +7,17 @@ type Props = {
     onClick?: () => void
 }
 
-export function Cta({ title }: Props){
-    function scrollToSection() {
-        const section = document.getElementById("contact"); // ID da seção alvo
-        if (section) {
-            section.scrollIntoView({ behavior: "smooth" });
-        }
-    }
+export function Cta({ title, onClick }: Props) {
   
-    return (
-        <section className={ styles.container }>
-            <h2 className={ styles.title }>{ title }</h2>
 
-            <ButtonPrimary name="Agendar Agora" className={ styles.button } onClick={scrollToSection}/>
-        </section>
-    )
+  return (
+    <section className={styles.container}>
+      <h2 className={styles.title}>{title}</h2>
+      <ButtonPrimary
+        name="Agendar Agora"
+        className={styles.button}
+        onClick={onClick}
+      />
+    </section>
+  );
 }
