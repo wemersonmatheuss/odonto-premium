@@ -29,7 +29,7 @@ export function Footer({ link, link2 }: Props) {
                             <img src={whatsapp} alt="" />
                         </a>
 
-                        <a href="mailto:dradaniela@gmail.com" target="blank">
+                        <a href="mailto:odontonopremium@gmail.com" target="blank">
                             <img src={email} alt="" />
                         </a>
 
@@ -66,7 +66,7 @@ export function Footer({ link, link2 }: Props) {
                     <div className={styles.linksNavigation}>
                         <a href="#">(81) 983144661</a>
                         <a href="#">(81) 979111263</a>
-                        <a href="mailto:dradaniela@gmail.com">dradaniela@gmail.com</a>
+                        <a href="mailto:odontonopremium@gmail.com">odontonopremium@gmail.com</a>
                         <a href="#">Vitória/PE</a>
                         <a href="#">Seg-Sex: 8h às 17h | Sab: 8h às 13h</a>
                     </div>

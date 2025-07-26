@@ -78,7 +78,7 @@ export function InfoContact() {
             info2="(81) 97911-1263"
           />
 
-          <CardInfoContact icon={email} title="E-mail" description="dradaniela@gmail.com" />
+          <CardInfoContact icon={email} title="E-mail" description="odontonopremium @gmail.com" />
 
           <CardInfoContact
             icon={clock}
