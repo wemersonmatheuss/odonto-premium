@@ -2,6 +2,10 @@ import styles from "./styles.module.css"
 
 import img from "../../assets/image-need.jpg"
 
+import relogio from "../../assets/svg/relogio.svg"
+import preco from "../../assets/svg/preco.svg"
+import crianca from "../../assets/svg/crianca.svg"
+
 export function Need() {
     return (
         <section className={styles.container} id="need">
@@ -12,7 +16,9 @@ export function Need() {
 
                     <div className={styles.need}>
 
-                        <div className={styles.img}></div>
+                        <div className={styles.img}>
+                            <img src={relogio} alt="" />
+                        </div>
 
                         <div className={styles.description}>
                             <h3>Falta de tempo</h3>
@@ -23,11 +29,13 @@ export function Need() {
 
                     <div className={styles.need}>
 
-                        <div className={styles.img}></div>
+                        <div className={styles.img}>
+                            <img src={preco} alt="" />
+                        </div>
 
                         <div className={styles.description}>
                             <h3>Preço alto</h3>
-                            <p>Preço que você pode pagar
+                            <p>
                                 Somos uma clínica particular com valores acessíveis, sem surpresas. Aqui, qualidade e economia andam juntas.
                             </p>
                         </div>
@@ -36,11 +44,13 @@ export function Need() {
 
                     <div className={styles.need}>
 
-                        <div className={styles.img}></div>
+                        <div className={styles.img}>
+                            <img src={crianca} alt="" />
+                        </div>
 
                         <div className={styles.description}>
                             <h3>Problemas com confiança ou atendimento infantil</h3>
-                            <p>Tratamento humanizado e familiar
+                            <p>Tratamento humanizado e familiar.
                                 Atendemos desde os pequenos até os mais velhos com carinho e paciência. A confiança começa no primeiro atendimento!
                             </p>
                         </div>
