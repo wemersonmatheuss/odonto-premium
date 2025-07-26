@@ -16,17 +16,17 @@ export function Team() {
             </div>
 
             <div className={styles.card}>
-                <CardTeam img={imgGisele} name="Dra. Gisele Vasconcelos" cargo="Odontologista" cro="19422" specialties="Especialista em Dente"/>
+                <CardTeam img={imgGisele} name="Dra. Gisele Vasconcelos" cargo="Odontologista" cro="CRO: 19422" specialties="Dentista"/>
 
-                <CardTeam img={imgGisele} name="Dra. Gisele Vasconcelos" cargo="Odontologista" cro="19422" specialties="Especialista em Dente"/>
+                <CardTeam img={imgGisele} name="Dra. Gisele Vasconcelos" cargo="Odontologista" cro="CRO: 19422" specialties="Prótese"/>
 
-                <CardTeam img={imgGisele} name="Dra. Gisele Vasconcelos" cargo="Odontologista" cro="CRO: 19422" specialties="Especialista em Dente"/>
+                <CardTeam img={imgGisele} name="Dra. Gisele Vasconcelos" cargo="Odontologista" cro="CRO: 19422" specialties="Dentista"/>
 
                 <CardTeam img={imgIngrid} name="Dra. Ingrid Vitória" cargo="Biomedica" cro="CRBM: 13192" specialties="Harmonização Facial"/>
 
-                <CardTeam img={imgJheniffer} name="Dra. Jheniffer Nicoly" cargo="Odontologista" cro="19745" specialties="Cirurgiã - Dentista"/>
+                <CardTeam img={imgJheniffer} name="Dra. Jheniffer Nicoly" cargo="Odontologista" cro="CRO: 19745" specialties="Dentista"/>
 
-                <CardTeam img={imgTatiane} name="Dra. Tatiane Medeiros" cargo="Fisioterapeuta" cro="19422" specialties="Especialista em Fisioterapia"/>
+                <CardTeam img={imgTatiane} name="Dra. Tatiane Medeiros" cargo="Fisioterapeuta" cro="COFITO-PE 361309-F" specialties="Fisioterapia"/>
             </div>
         </section>
     )
