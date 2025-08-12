@@ -2,6 +2,7 @@ import styles from "./styles.module.css"
 
 import { CardTeam } from "../CardTeam"
 
+import draDaniela from "../../assets/dradaniela.jpg"
 import imgGisele from "../../assets/imgGisele.jpg"
 import imgIngrid from "../../assets/imgIngrid.jpg"
 import imgJheniffer from "../../assets/imgJheniffer.jpg"
@@ -16,7 +17,7 @@ export function Team() {
             </div>
 
             <div className={styles.card}>
-                <CardTeam img={imgGisele} name="Dra. Gisele Vasconcelos" cargo="Odontologista" cro="CRO: 19422" specialties="Dentista"/>
+                <CardTeam img={draDaniela} name="Dra. Gisele Vasconcelos" cargo="Odontologista" cro="CRO: 12123" specialties="Dentista"/>
 
                 <CardTeam img={imgGisele} name="Dra. Gisele Vasconcelos" cargo="Odontologista" cro="CRO: 19422" specialties="Prótese"/>
 
