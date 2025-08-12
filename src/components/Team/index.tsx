@@ -17,7 +17,7 @@ export function Team() {
             </div>
 
             <div className={styles.card}>
-                <CardTeam img={draDaniela} name="Dra. Gisele Vasconcelos" cargo="Odontologista" cro="CRO: 12123" specialties="Dentista"/>
+                <CardTeam img={draDaniela} name="Dra. Daniela Bordignon" cargo="Odontologista" cro="CRO: 12123" specialties="Cirugiã Dentista"/>
 
                 <CardTeam img={imgGisele} name="Dra. Gisele Vasconcelos" cargo="Odontologista" cro="CRO: 19422" specialties="Prótese"/>
 
