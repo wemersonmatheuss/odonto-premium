@@ -1,6 +1,6 @@
 import styles from "./styles.module.css"
 
-import img from "../../assets/imgGisele.jpg"
+import img from "../../assets/dradaniela.jpg"
 
 export function About() {
     return (
